@@ -1,0 +1,6 @@
+/* pages/richtextdemo/richtextdemo.wxss */
+.box {
+  background: #e4e4e4;
+  width: 100px;
+  height: 50px;
+}

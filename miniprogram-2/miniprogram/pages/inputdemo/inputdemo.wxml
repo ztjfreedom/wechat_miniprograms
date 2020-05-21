@@ -1,0 +1,2 @@
+<!--pages/inputdemo/inputdemo.wxml-->
+<input class="input" placeholder="请输入" maxlength="5" password focus selection-start="1" selection-end="3" value="123456" bindinput="onInput" bindfocus="onFocus" bindfocus="onConfirm"></input>

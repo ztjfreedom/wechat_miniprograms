@@ -1,0 +1,15 @@
+<!--miniprogram/pages/tpl/news/news.wxml-->
+<template name="news">
+	<view class="news-group">
+		<view class="info-group">
+			<view class="title">外卖行业，餐饮新零售升级</view>
+			<view class="more-group">
+				<text class="author">张三</text>
+				<text class="date">10月24日</text>
+			</view>
+		</view>
+		<view class="thumbnail-group">
+			<image class="thumbnail" src="https://img3.qianzhan.com/news/201903/01/20190301-0d29550a07e29115_250x150.jpg"></image>
+		</view>
+	</view>
+</template>

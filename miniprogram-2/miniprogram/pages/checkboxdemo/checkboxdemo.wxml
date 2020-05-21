@@ -1,0 +1,7 @@
+<!--pages/checkboxdemo/checkboxdemo.wxml-->
+<form bindsubmit="onSubmit">
+  <checkbox-group name="languages" bindchange="onChange">
+    <checkbox wx:for="{{languages}}" value="{{item.id}}" wx:key="id" color="white">{{item.name}}</checkbox>
+  </checkbox-group>
+  <button form-type="submit">提交</button>
+</form>

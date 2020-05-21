@@ -1,0 +1,14 @@
+<!--customcomponents/mypage/mypage.wxml-->
+<view class="myContainer">
+  <view class="header">Here is header</view>
+  <view class="body">
+    <view class="left-group" bindtap="onBodyTap" data-index="0">
+      <slot name="left"></slot>
+    </view>
+    <view class="right-group" bindtap="onBodyTap" data-index="1">
+      <slot name="right"></slot>
+    </view>
+  </view>
+
+  <slot></slot>  <!-- 在自定义组件中留下可以新增节点的位置 -->
+</view>

@@ -1,0 +1,26 @@
+/* components/indexmodule/indexmodule.wxss */
+.module-group {
+  padding: 40rpx;
+  background-color: white;
+}
+
+.module-group .module-top {
+  font-size: 36rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+.module-top .module-title {
+  color: #494949;
+}
+
+.module-top .module-more {
+  color: #41be57;
+}
+
+.module-scroll {
+  margin-top: 40rpx;
+  width: 100%;
+  height: 400rpx;
+  white-space: nowrap;  /* 使scrollview中的item在一行中显示的必要设置 */
+}

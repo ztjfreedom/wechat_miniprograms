@@ -1,0 +1,14 @@
+<view class="weibo-group">
+  <view class="user-group">
+    <image class="avatar" src="{{weibo.author.avatarUrl}}"></image>
+    <view class="right-info">
+      <view class="username">{{weibo.author.nickName}}</view>
+    </view>
+  </view>
+  <view class="weibo-content-group">
+    <view class="content">
+      {{weibo.content}}
+    </view>
+  </view>
+</view>
+

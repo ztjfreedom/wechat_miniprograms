@@ -1,0 +1,4 @@
+<!--pages/textdemo/textdemo.wxml-->
+<!-- text是行内元素，不会占据整行，并且无法被设置宽高 -->
+<text selectable decode space="nbsp">Hello   World &gt; Man </text>
+<text>123</text>

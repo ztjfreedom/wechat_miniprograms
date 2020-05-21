@@ -1,0 +1,5 @@
+<form bindsubmit='onSubmitEvent'>
+  <textarea class="weibo-textarea" placeholder='请输入微博内容' name="content"></textarea>
+
+  <button class="submit-btn" type="primary" form-type='submit'>发布</button>
+</form>

@@ -1,0 +1,13 @@
+/* miniprogram/pages/btndemo/btndemo.wxss */
+.loading {
+  font-size: 40rpx;
+  color: #ccc;
+}
+
+.loading::after {
+  border: none;
+}
+
+.news {
+  padding: 20rpx;
+}

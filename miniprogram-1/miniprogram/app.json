@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/ssdemo/ssdemo",
+    "pages/weibo/weibo",
+    "pages/tpl/qq/qq",
+    "pages/tpl/weixin/weixin",
+    "pages/article/article",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/course/course"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "My Project",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#1AAD16",
+    "list": [
+      {
+        "pagePath": "pages/ssdemo/ssdemo",
+        "text": "ssdemo"
+      },
+      {
+        "pagePath": "pages/tpl/qq/qq",
+        "text": "QQ"
+      },
+      {
+        "pagePath": "pages/tpl/weixin/weixin",
+        "text": "Weixin"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "Home",
+        "iconPath": "images/tabbar/index_icon.png",
+        "selectedIconPath": "images/tabbar/index_icon_selected.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "debug": false
+}

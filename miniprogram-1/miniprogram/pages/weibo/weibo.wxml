@@ -1,0 +1,39 @@
+<!--miniprogram/pages/weibo.wxml-->
+<view> username: {{ username }} </view>
+<view> age: {{ profile.age }} </view>
+<view> first book: {{ books[0] }} </view>
+
+<view wx:if = "{{ profile.age >= 18}}"> 大学生以上 </view>
+<view wx:elif = "{{ profile.age >= 12}}"> 中学生 </view>
+<view wx:else> 小朋友 </view>
+
+<view wx:if = "{{ profile.age + 5 >= 18}}"> 5年后：成年 </view>
+<view wx:else> 5年后：未成年 </view>
+
+<!-- block可以在一个条件表达式判断之后渲染多个标签，block本身不会被渲染 -->
+<block wx:if="{{weather == '晴天'}}">
+  <view>天气是晴天</view>
+  <view>适合长途旅行</view>
+</block>
+<block wx:else>
+  <view>天气不好</view>
+  <view>呆在家里</view>
+</block>
+
+<!-- index和item是默认名称 -->
+<view wx:for="{{books}}" wx:key="*this">{{index}} / {{item}}</view>
+<block wx:for="{{books}}" wx:key="*this">
+  <view>第 {{index}} 本书</view>
+  <view>{{item}}</view>
+</block>
+
+<view class='row' wx:for="{{[1,2,3,4,5,6,7,8,9]}}" wx:for-item="row" wx:key="*this">
+  <view class='col' wx:for="{{[1,2,3,4,5,6,7,8,9]}}" wx:for-item="col" wx:if="{{col <= row}}" wx:key="*this">
+    {{col}}*{{row}}={{col*row}}
+  </view>
+</view>
+
+<view wx:for="{{lines}}" wx:key="id"> <!-- id对应lines中对象的id属性，不需要写成{{item.id}}，*this不能用于对象 -->
+  <switch>{{item.name}}</switch>
+</view>
+<button bindtap="modifyLines">update</button>

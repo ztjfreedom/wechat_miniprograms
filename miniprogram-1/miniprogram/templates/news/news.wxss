@@ -1,0 +1,24 @@
+/* miniprogram/pages/tpl/news/news.wxss */
+.news-group {
+  height: 200rpx;
+  width: 100%;
+  border-bottom: 1px solid #e4e4e4;
+  padding: 30rpx 20rpx;
+  box-sizing: border-box;
+}
+
+.news-group .info-group {
+  width: 60%;
+  float: left;
+}
+
+.news-group .thumbnail-group {
+  width: 35%;
+  height: 150rpx;
+  float: right;
+}
+
+.thumbnail-group .thumbnail {
+  height: 100%;
+  width: 100%;
+}

@@ -1,0 +1,26 @@
+/* miniprogram/pages/tpl/weixin/weixin.wxss */
+.article-group {
+  font-size: 14px;
+  /* height: 40px; */
+  padding: 10px;
+  line-height: 40px;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.article-group .advertise {
+  background-color: red;
+}
+
+.outterview {
+  background-color: pink;
+  width: 200px;
+  height: 200px;
+}
+
+.innerview {
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+}
+
+@import "../../../templates/message/message.wxss";

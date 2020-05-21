@@ -1,0 +1,8 @@
+<!--miniprogram/pages/wxs/wxs.wxml-->
+<wxs src="wxs.wxs" module="m"></wxs>
+
+<!-- 使用wxs不需要setData -->
+<view>{{m.getWeekDay(day)}}</view>
+
+<view>{{time}}</view>
+<view>{{m.timeFormat()}}</view>

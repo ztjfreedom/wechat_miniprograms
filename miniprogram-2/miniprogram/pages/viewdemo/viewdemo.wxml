@@ -1,0 +1,23 @@
+<!--miniprogram/pages/viewdemo/viewdemo.wxml-->
+<!-- view类似于html中的div -->
+<!-- hover是点击状态 -->
+<view class="outter" hover-class="outter-hover" hover-start-time="10" hover-stay-time="100">
+  <view class="inner" hover-class="inner-hover" hover-stop-propagation="{{true}}"></view>
+</view>
+
+<scroll-view class="scroll" scroll-x="{{true}}">
+  <view class="scroll-item bg_red"></view>
+  <view class="scroll-item bg_yellow"></view>
+  <view class="scroll-item bg_blue"></view>
+  <view class="scroll-item bg_pink"></view>
+  <view class="scroll-item bg_grey"></view>
+</scroll-view>
+
+<!-- <scroll-view class="scroll-y" scroll-y="{{true}}" scroll-top="25"> -->
+<scroll-view class="scroll-y" scroll-y="{{true}}" scroll-into-view="yellow" scroll-with-animation="{{true}}" bindscrolltoupper="toUpperEvent" upper-threshold="100">
+  <view class="scroll-item-y bg_red"></view>
+  <view class="scroll-item-y bg_yellow" id="yellow"></view>
+  <view class="scroll-item-y bg_blue"></view>
+  <view class="scroll-item-y bg_pink"></view>
+  <view class="scroll-item-y bg_grey"></view>
+</scroll-view>

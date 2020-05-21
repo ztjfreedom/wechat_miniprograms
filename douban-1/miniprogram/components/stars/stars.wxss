@@ -1,0 +1,7 @@
+/* components/stars/stars.wxss */
+.rate-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 20rpx; */
+}

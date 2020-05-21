@@ -1,0 +1,22 @@
+<!--miniprogram/pages/pagedemo/pagedemo.wxml-->
+<view>{{username}}</view>
+<view>{{person.name}}</view>
+<view>{{person}}</view>
+<view>{{hello()}}</view>
+<view wx:for="{{books}}" wx:key="*this">{{item}}</view>
+<button bindtap="goToNextPage">跳转</button>
+
+<swiper class="swiper" autoplay indicator-dots indicator-color="#fff" indicator-active-color="red" style="width:{{width*2}}rpx; height:{{height*2}}rpx" current-item-id="2" interval="3000" duration="1000" circular previous-margin="20rpx" next-margin="20rpx" bindchange="onChange" bindanimationfinish="onAnimationFinish">
+  <swiper-item>
+    <image src="../../images/1.jpg"></image>
+  </swiper-item>
+  <swiper-item item-id="2">
+    <image src="../../images/2.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="../../images/3.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="../../images/4.jpg"></image>
+  </swiper-item>
+</swiper>

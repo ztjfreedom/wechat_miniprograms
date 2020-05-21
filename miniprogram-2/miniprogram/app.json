@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/joke/joke",
+    "pages/requestdemo/requestdemo",
+    "pages/segmentdemo/segmentdemo",
+    "pages/customdemo/customdemo",
+    "pages/inputdemo/inputdemo",
+    "pages/checkboxdemo/checkboxdemo",
+    "pages/btnform/btnform",
+    "pages/btndemo/btndemo",
+    "pages/progressdemo/progressdemo",
+    "pages/richtextdemo/richtextdemo",
+    "pages/textdemo/textdemo",
+    "pages/searchbar/searchbar",
+    "pages/waiting/waiting",
+    "pages/success/success",
+    "pages/icondemo/icondemo",
+    "pages/movabledemo/movabledemo",
+    "pages/pagedemo/pagedemo",
+    "pages/redpocket/redpocket",
+    "pages/wxs/wxs",
+    "pages/viewdemo/viewdemo",
+    "pages/weibo/list/list",
+    "pages/weibo/detail/detail",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/nextpage/nextpage"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1e82d2",
+    "navigationBarTitleText": "支付宝",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "Index"
+      },
+      {
+        "pagePath": "pages/pagedemo/pagedemo",
+        "text": "Page"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

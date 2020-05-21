@@ -1,0 +1,5 @@
+<!--pages/richtextdemo/richtextdemo.wxml-->
+<rich-text class="article" nodes="{{article}}"></rich-text>
+<rich-text class="article" nodes="{{article_array}}"></rich-text>
+<!-- <rich-text class="article" nodes="{{article_demo}}"></rich-text> -->
+<rich-text class="article" nodes="{{article_demo_array}}"></rich-text>

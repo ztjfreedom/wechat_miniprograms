@@ -1,0 +1,3 @@
+<!--filedemo/pages/index/index.wxml-->
+<button bindtap="onFileSelect">选择图片</button>
+<image src="cloud://cloud-dev-ktvwc.636c-cloud-dev-ktvwc-1301985099/pics/test1.png"></image>

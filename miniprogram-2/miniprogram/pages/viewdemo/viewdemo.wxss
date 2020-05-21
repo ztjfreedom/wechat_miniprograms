@@ -1,0 +1,65 @@
+/* miniprogram/pages/viewdemo/viewdemo.wxss */
+.outter {
+  width: 400rpx;
+  height: 400rpx;
+  background-color: pink;
+}
+
+.outter-hover {
+  background-color: blue;
+}
+
+.inner {
+  width: 200rpx;
+  height: 200rpx;
+  background-color: grey;
+}
+
+.inner-hover {
+  background-color: white;
+}
+
+.scroll {
+  width: 100%;
+  height: 400rpx;
+  background-color: #e3e3e3;
+  white-space: nowrap;
+}
+
+.scroll .scroll-item {
+  display: inline-block;
+  width: 200rpx;
+  height: 200rpx;
+}
+
+.bg_red {
+  background-color: red;
+}
+
+.bg_yellow {
+  background-color: yellow;
+}
+
+.bg_blue {
+  background-color: blue;
+}
+
+.bg_pink {
+  background-color: pink;
+}
+
+.bg_grey {
+  background-color: grey;
+}
+
+.scroll-y {
+  width: 100%;
+  height: 200rpx;
+  margin-top: 100rpx;
+  background-color: violet;
+}
+
+.scroll-y .scroll-item-y {
+  width: 100%;
+  height: 100rpx;
+}

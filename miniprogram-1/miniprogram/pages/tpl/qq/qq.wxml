@@ -1,0 +1,7 @@
+<!--miniprogram/pages/tpl/qq/qq.wxml-->
+<import src="../../../templates/message/message.wxml" />
+<!-- <template is="message" wx:for="{{messages}}" wx:key="unique" data="{{content:item.content, friend:item.friend}}"></template> -->
+<!-- 对象中的字段名和模版中的字段名正好匹配，所以可以这样直接展开item -->
+<template is="message" wx:for="{{messages}}" wx:key="unique" data="{{...item}}"></template>
+
+<include src="banner.wxml" />

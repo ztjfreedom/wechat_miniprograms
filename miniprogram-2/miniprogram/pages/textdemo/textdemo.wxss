@@ -1,0 +1,4 @@
+/* pages/textdemo/textdemo.wxss */
+text {
+  font-size: 60rpx;
+}

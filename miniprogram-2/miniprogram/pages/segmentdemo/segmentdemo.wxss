@@ -1,0 +1,17 @@
+/* pages/segmentdemo/segmentdemo.wxss */
+.segment-page {
+  width: 100%;
+  height: 400px;
+}
+
+.newest-page {
+  background-color: skyblue;
+}
+
+.focus-page {
+  background-color: green;
+}
+
+.city-page {
+  background-color: red;
+}

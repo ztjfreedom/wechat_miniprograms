@@ -1,0 +1,6 @@
+<!--miniprogram/pages/waiting/waiting.wxml-->
+<view class="container">
+  <icon type="waiting" size="100"></icon>
+  <view class="tips">操作进行中...{{seconds}}</view>
+  <button type="default" class="cancel-btn">取消</button>
+</view>

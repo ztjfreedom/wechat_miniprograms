@@ -1,0 +1,10 @@
+/* miniprogram/pages/weibo.wxss */
+.row{
+  display: flex;
+  justify-content: flex-start;
+  font-size: 8px;
+}
+
+.row .col{
+  width: 35px;
+}

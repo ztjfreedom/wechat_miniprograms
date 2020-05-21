@@ -1,0 +1,15 @@
+/* customcomponents/mypage/mypage.wxss */
+.body {
+  width: 100%;
+  display: flex;
+}
+
+.left-group {
+  flex: 1;
+  background-color: yellow;
+}
+
+.right-group {
+  flex: 1;
+  background-color: blue;
+}

@@ -1,0 +1,89 @@
+/**index.wxss**/
+.blue-group {
+  background-color: #1e82d2;
+  padding: 20rpx;
+}
+
+.blue-group .top-group {
+  height: 58rpx;
+  width: 100%;
+  display: flex;
+}
+
+.top-group .search-group {
+  flex: 1;  /* 自动伸缩 */
+  display: flex;
+}
+
+.search-group .search-input {
+  flex: 1;  /* 自动伸缩 */
+  background-color: #1a71b7;
+  border-radius: 4px;
+  padding: 0 10rpx;
+  font-size: 24rpx;
+}
+
+.search-group .placeholder-input {
+  color: #fff;
+}
+
+.top-group .more-group {
+  flex-basis: 180rpx;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.more-group image {
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.blue-group .main-menu-group {
+  margin-top: 30rpx;
+  margin-bottom: 20rpx;
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-menu-group .main-menu {
+  width: 100rpx;
+  height: 120rpx;
+  text-align: center;
+}
+
+.main-menu-group .main-menu image {
+  width: 70rpx;
+  height: 70rpx;
+}
+
+.main-menu-group .main-menu text {
+  font-size: 32rpx;
+  color: #fff;
+}
+
+.white-group {
+  background-color: #fff;
+  padding-top: 20rpx;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; /* 允许换行 */
+}
+
+.white-group .menu-group {
+  width: 180rpx;
+  height: 100rpx;
+  margin-bottom: 40rpx;
+  display: flex;
+  flex-direction: column;  /* 主轴方向修改为纵向 */
+  justify-content: space-between;
+  align-items: center;  /* 侧轴方向排列方式设置为center，这里即为横向 */
+}
+
+.white-group .menu-group image {
+  width: 54rpx;
+  height: 50rpx;
+}
+
+.white-group .menu-group text {
+  font-size: 32rpx;
+}

@@ -1,0 +1,3 @@
+<button open-type="getUserInfo" type="primary" bindgetuserinfo="onLoginEvent">登录</button>
+
+<button bindtap='onSendWeibo'>发送微博</button>

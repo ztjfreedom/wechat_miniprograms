@@ -1,0 +1,13 @@
+<!--pages/btnform/btnform.wxml-->
+<form bindsubmit="onSubmit">
+  <view>
+    用户名:
+    <input name="username" placeholder="请输入用户名"></input>
+  </view>
+  <view>
+    密码:
+    <input name="password" password placeholder="请输入密码"></input>
+  </view>
+  <button type="primary" form-type="submit">登陆</button>
+  <button form-type="reset">重置</button>
+</form>

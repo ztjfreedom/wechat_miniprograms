@@ -1,0 +1,6 @@
+<!--pages/customdemo/customdemo.wxml-->
+<mybox showInner="{{true}}" innerText="My Box" outterSize="300"></mybox>
+<mypage bindbodytap="onMyPageBodyTap">
+  <view slot="left">Here is left</view>
+  <view slot="right">Here is right</view>
+</mypage>

@@ -1,0 +1,8 @@
+<!--miniprogram/pages/icondemo/icondemo.wxml-->
+<icon type="success" size="100rpx" color="blue"></icon>
+<icon type="success_no_circle" size="100rpx"></icon>
+<icon type="info" size="100rpx"></icon>
+<icon type="warn" size="100rpx"></icon>
+<icon type="waiting" size="100rpx"></icon>
+<icon type="cancel" size="100rpx"></icon>
+<icon type="download" size="100rpx"></icon>

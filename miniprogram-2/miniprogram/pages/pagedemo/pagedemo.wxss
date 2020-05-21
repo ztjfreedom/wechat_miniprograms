@@ -1,0 +1,10 @@
+/* miniprogram/pages/pagedemo/pagedemo.wxss */
+
+.swiper {
+
+}
+
+.swiper image {
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container">
+  <weibo wx:for="{{weibos}}" wx:for-item="weibo" weibo="{{weibo}}" detailurl="../weibod/weibod?index={{index}}"></weibo>
+</view>
+
+<view class="write-weibo-btn" bind:tap="onWriteWeiboTap">
+  <view>+</view>
+</view>

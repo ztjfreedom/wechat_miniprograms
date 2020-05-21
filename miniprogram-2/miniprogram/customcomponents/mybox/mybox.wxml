@@ -1,0 +1,5 @@
+<!--customcomponents/mybox/mybox.wxml-->
+<view class="outter" style="width:{{outterSize}}px; height:{{outterSize}}px">
+  <view wx:if="{{showInner}}" class="inner">{{innerText}}</view>
+  <slot></slot>  <!-- 在自定义组件中留下可以新增节点的位置 -->
+</view>

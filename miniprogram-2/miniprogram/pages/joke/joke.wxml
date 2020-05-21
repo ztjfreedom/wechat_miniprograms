@@ -1,0 +1,5 @@
+<!--pages/joke/joke.wxml-->
+<view wx:for="{{jokes}}" wx:key="hashId" style="padding:10px; border:1px solid #e4e4e4">
+  {{item.content}}
+</view>
+<loadingmore hasmore="{{hasmore}}"></loadingmore>

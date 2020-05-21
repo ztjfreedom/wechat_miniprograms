@@ -1,0 +1,26 @@
+<!--pages/wweibo/wweibo.wxml-->
+<view class="container">
+	<form bindsubmit="onSubmit">
+		<textarea name="content" class="textarea" placeholder="请输入您的心情～"></textarea>
+		<view wx:if="{{type == 1}}" class="image-list-group">
+			<view class="image-group" style="width:{{imageSize}}px; height:{{imageSize}}px" wx:for="{{tempImages}}" wx:key="*this">
+				<image src="{{item}}" bindtap="onImageTap" data-index="{{index}}"></image>
+				<view class="close-btn" bindtap="onRemoveTap" data-index="{{index}}"></view>
+			</view>
+			<view wx:if="{{tempImages.length < 9}}" class="add-image-btn" style="width:{{imageSize}}px; height:{{imageSize}}px" bindtap="onAddImageTap">
+				<view>+</view>
+			</view>
+		</view>
+		<view wx:if="{{type == 2}}">
+			<video src="{{tempVideo}}"></video>
+		</view>
+		<view class="location-group" bindtap="onLocationTap">
+			<view class="left-group">
+				<image class="icon" src="../../images/location.png"></image>
+				<view class="location-name">{{location ? location.name : "所在位置"}}</view>
+			</view>
+			<image class="arrow" src="../../images/arrow.png"></image>
+		</view>
+		<button form-type="submit" type="primary" class="submit-btn" style="width:unset">发表</button>
+	</form>
+</view>

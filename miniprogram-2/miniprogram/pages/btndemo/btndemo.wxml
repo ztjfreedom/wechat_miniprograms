@@ -1,0 +1,4 @@
+<!--miniprogram/pages/btndemo/btndemo.wxml-->
+<view wx:for="{{newses}}" class="news" wx:key="*this">{{item}}</view>
+<button wx:if="{{hasMoreData}}" style="width: unset" loading class="loading">正在加载</button>
+<button wx:else style="width: unset" class="loading">没有更多数据</button>

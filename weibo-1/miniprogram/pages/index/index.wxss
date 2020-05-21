@@ -1,0 +1,24 @@
+/**index.wxss**/
+.container {
+  background-color: #f2f2f2;
+}
+
+.write-weibo-btn {
+  position: fixed;  /* 固定定位 */
+  right: 50rpx;
+  bottom: 100rpx;
+  width: 100rpx;
+  height: 100rpx;
+  background-color: rgb(116, 194, 223);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100rpx;
+  color: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.write-weibo-btn view {
+  margin-top: -16rpx;
+}

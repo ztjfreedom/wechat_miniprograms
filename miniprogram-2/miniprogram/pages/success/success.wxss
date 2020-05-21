@@ -1,0 +1,19 @@
+/* pages/success/success.wxss */
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 40rpx;
+  box-sizing: border-box;
+}
+
+.tips {
+  margin-top: 20rpx;
+}
+
+.finish-btn {
+  margin-top: 40rpx;
+  width: 100%;
+}

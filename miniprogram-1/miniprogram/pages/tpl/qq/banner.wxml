@@ -1,0 +1,4 @@
+<view>
+Here is a banner
+<text>{{username}}</text>
+</view>

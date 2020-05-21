@@ -1,0 +1,17 @@
+<!--miniprogram/pages/tpl/weixin/weixin.wxml-->
+<import src="../../../templates/message/message.wxml" />
+<template is="message" data="{{content:'我们一起打篮球吧！', friend:'科比'}}"></template>
+
+<!-- <view bindtap="onViewClick">
+  请点击我
+</view> -->
+
+<view class="article-group" wx:for="{{articles}}" wx:key="id" bindtap="onArticleClick" data-id="{{item.id}}">
+  <view>{{item.title}}</view>
+  <view class="advertise" catchtap="onAdvertiseClick">--这里是广告--</view>
+</view>
+
+<view id="outer" class="outterview" bindtap="onOutterViewClick" data-id="abc">
+  <view id="inner" class="innerview" bindtap="onInnerViewClick">
+  </view>
+</view>

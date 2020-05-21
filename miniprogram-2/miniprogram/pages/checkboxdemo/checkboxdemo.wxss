@@ -1,0 +1,14 @@
+/* pages/checkboxdemo/checkboxdemo.wxss */
+checkbox {
+  border-radius: 50%;  /* 它是无效的 */
+  font-size: 14px;
+}
+
+checkbox .wx-checkbox-input {
+  border-radius: 50%;
+}
+
+checkbox .wx-checkbox-input-checked {
+  background-color: red;
+  border-color: red;
+}

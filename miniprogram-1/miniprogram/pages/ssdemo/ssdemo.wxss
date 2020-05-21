@@ -1,0 +1,35 @@
+/* miniprogram/pages/ssdemo/ssdemo.wxss */
+@import "../../templates/news/news.wxss";
+
+.outer {
+  background-color: pink;
+  width: 500rpx;
+  height: 300rpx;
+  display: flex;
+  justify-content: space-evenly;
+  /* justify-content: space-between; */
+  align-items: center;
+  /* align-items: baseline; */
+  flex-direction: row-reverse;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  /* flex-wrap: wrap-reverse; */
+  align-content: center;
+  /* align-content: flex-start; */
+}
+
+.outer .inner {
+  width: 100rpx;
+  height: 100rpx;
+  background-color: grey;
+  border: 1px solid #e4e4e4;
+  box-sizing: border-box;
+  /* flex-grow: 1; */
+  /* flex-shrink: 0; */
+  /* flex-basis: 150rpx; */
+  /* flex: 1 0 auto; */
+}
+
+.outer .inner1 view {
+  margin-top: 20rpx;
+}
